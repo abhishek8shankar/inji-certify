@@ -15,7 +15,7 @@ This guide details the steps required to manually migrate your Inji Certify depl
 
    ```properties
    ACTION=upgrade
-   MOSIP_DB_NAME=inji_certify
+   DB_NAME=inji_certify
    DB_SERVERIP=127.0.0.1
    DB_PORT=5432
    SU_USER=postgres
@@ -38,7 +38,7 @@ This guide details the steps required to manually migrate your Inji Certify depl
 5. To rollback the upgrade, update the `ACTION` property in your `upgrade.properties` file to `rollback` and re-run the script with the properties file as an argument:
    ```properties
    ACTION=rollback
-   MOSIP_DB_NAME=inji_certify
+   DB_NAME=inji_certify
    DB_SERVERIP=127.0.0.1
    DB_PORT=5432
    SU_USER=postgres
