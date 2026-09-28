@@ -1,4 +1,4 @@
-\c :mosipdbname
+\c :dbname
 
 \ir ddl/certify-key_alias.sql
 \ir ddl/certify-key_policy_def.sql
